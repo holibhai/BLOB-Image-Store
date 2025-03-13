@@ -4,13 +4,14 @@ import DisplayProduct from "./pages/DisplayProduct";
 import AddProduct from "./pages/AddProduct";
 import UpdateProduct from "./pages/UpdateProduct";
 
+                                      
 import Home from "./pages/Home";
 import Navbar from "./common/Navbar";
 import Footer from "./common/Footer";
 
 const App = () => {
   return (
-    <div className="main">
+    <div>
       <Navbar />
 
       <Routes>
