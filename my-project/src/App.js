@@ -1,9 +1,27 @@
- import React from 'react'
- 
- const App = () => {
-   return (
-     <div>App</div>
-   )
- }
- 
- export default App
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import DisplayProduct from "./pages/DisplayProduct";
+import AddProduct from "./pages/AddProduct";
+import UpdateProduct from "./pages/UpdateProduct";
+
+import Home from "./pages/Home";
+import Navbar from "./common/Navbar";
+import Footer from "./common/Footer";
+
+const App = () => {
+  return (
+    <div className="main">
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/displayProduct" element={<DisplayProduct />} />
+        <Route path="/addProduct" element={<AddProduct />} />
+        <Route path="/updateProduct" element={<UpdateProduct />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
