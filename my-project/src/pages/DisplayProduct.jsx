@@ -14,7 +14,7 @@ const DisplayProduct = () => {
     ]
   return (
     <>
-          <div className='grid grid-cols-4 gap-5 justify-center p-5'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-center px-36 py-10'>
 
           {data.map((product,index)=>(
             <div key={index} className=''>
