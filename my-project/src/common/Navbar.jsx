@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div>
+      <div className="">
         <div className="sticky top-0">
           <nav className="flex justify-between items-center p-8 ">
             <div>
