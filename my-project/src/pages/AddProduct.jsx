@@ -81,13 +81,13 @@ const AddProduct = () => {
                 className="mt-2 block w-full border border-gray-300 p-2 rounded-lg"
                 required
               />
-              {image && (
+              {/* {image && (
                 <img
                   src={image}
                   alt="Preview"
                   className="mt-2 w-full h-40 object-cover rounded-lg"
                 />
-              )}
+              )} */}
             </div>
 
             {/* Image Category */}
